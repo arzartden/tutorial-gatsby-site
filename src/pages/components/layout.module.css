@@ -4,6 +4,13 @@
   font-family: sans-serif;
 }
 
+.site-title {
+  font-size: 3rem;
+  color: gray;
+  font-weight: 700;
+  margin: 2rem 0;
+}
+
 .heading {
   color: rebeccapurple;
 }
@@ -14,7 +21,7 @@
   padding-left: 0;
 }
 
-.nav-link-item {
+.nav-link-item:not(:last-child) {
   padding-right: 2rem;
 }
 
